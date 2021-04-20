@@ -1,0 +1,72 @@
+.feedViewer {
+  :global {
+    @import "./bootstrap/bootstrap";
+
+    // Compact News Layout
+
+    .recent-articles h4 {
+      font-size: 17px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .recent-articles h5 {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      height: 40px;
+      overflow: hidden;
+    }
+
+    .recent-articles .item .thumb {
+      width: 68px;
+    }
+
+    .recent-articles strong {
+      font-weight: 600;
+    }
+
+    // Expanded News Layout
+
+    .latest-news li h4 {
+      font-size: 16px;
+      font-weight: 600;
+      text-align: justify;
+    }
+
+    .latest-news li {
+      border-bottom: 1px solid #ebebeb;
+    }
+
+    .latest-news strong {
+      font-weight: 600;
+    }
+
+    .latest-news p {
+      overflow: hidden;
+      position: relative;
+      line-height: 20px;
+      max-height: 80px;
+      text-align: justify;
+      margin-right: -1em;
+      padding-right: 1em;
+
+      &:before {
+        content: "...";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+      }
+
+      &:after {
+        content: "";
+        position: absolute;
+        right: 0;
+        width: 1em;
+        height: 1em;
+        margin-top: 0.2em;
+        background: white;
+      }
+    }
+  }
+}

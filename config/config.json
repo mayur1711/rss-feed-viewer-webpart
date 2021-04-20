@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "rss-feed-viewer-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/rssFeedViewer/RssFeedViewerWebPart.js",
+          "manifest": "./src/webparts/rssFeedViewer/RssFeedViewerWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RssFeedViewerWebPartStrings": "lib/webparts/rssFeedViewer/loc/{locale}.js"
+  }
+}
