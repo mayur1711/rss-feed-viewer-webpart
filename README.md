@@ -1,4 +1,4 @@
-# certificate-renewal-dashboard-webpart
+# rss-feed-viewer-webpart
 
 ## Summary
 
