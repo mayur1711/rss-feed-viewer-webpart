@@ -3,7 +3,7 @@
 ## Summary
 
 This web part was designed using SharePoint Framework (SPFX) and React JS.  
-It provides a custom solution for displaying the recent posts from single (or multiple) RSS Feed onto the SharePoint site.  
+It provides a custom solution for displaying the recent posts from single or multiple RSS Feed(s) onto the SharePoint site.  
 The web part is available in two layouts which can be changed from property pane -
 
 - **Compact** - displays the posts in tile format (latest 6 posts)
