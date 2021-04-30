@@ -15,16 +15,16 @@ The web part is available in two layouts which can be changed from property pane
 
 - **Compact Layout**
 
-  <img alt="Compact Layout" src="https://github.com/mayur1711/rss-feed-viewer-webpart/blob/main/output/Compact View.jpg" />
+  <img alt="Compact Layout" src="output/Compact View.jpg" />
   <br><br>
 
 - **Expanded Layout**
 
-  <img alt="Expanded Layout" src="https://github.com/mayur1711/rss-feed-viewer-webpart/blob/main/output/Expanded View.jpg" />
+  <img alt="Expanded Layout" src="output/Expanded View.jpg" />
 
 - **Property Pane**
 
-  <img alt="Expanded Layout" src="https://github.com/mayur1711/rss-feed-viewer-webpart/blob/main/output/Property Pane.jpg"/>
+  <img alt="Expanded Layout" src="output/Property Pane.jpg"/>
 
 <br>
 
